@@ -1,0 +1,38 @@
+.layout-wrap {
+	display: flex;
+	flex-direction: column;
+	justify-content: stretch;
+	align-items: stretch;
+	min-width: 100vw;
+	min-height: 100vh;
+	background: #F9F9F9;
+}
+
+.layout-body {
+	flex-grow: 1;
+	display: flex;
+	justify-content: stretch;
+}
+
+.layout-sidebar {
+	position: relative;
+	flex-basis: 323px;
+	background: #FFFFFF;
+	border-radius: 0px 16px 16px 0px;
+}
+
+.sidebar-top-logo {
+	width: 175px;
+	margin: 24px 60px;
+}
+
+.layout-content {
+	flex-grow: 1;
+}
+
+.layout-content-top {
+	padding: 35px 81px 0;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
